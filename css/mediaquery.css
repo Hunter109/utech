@@ -1,0 +1,105 @@
+@media only screen and (max-width:1000px) {
+    html {
+        font-size: 50%;
+        width: 100%;
+        height: auto;
+    }
+    #Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .home-img {
+        height: 20vh;
+        width: 90%;
+        align-self: center;
+        justify-self: center;
+        position: relative;
+        top: -10rem;
+        left: 8rem;
+        /* background-color: red; */
+    }
+    .home-img img {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        /* border: 2px solid yellow; */
+    }
+    nav {
+        display: none;
+    }
+    #SearchBar {
+        display: none;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        font-size: .1rem;
+    }
+    #Home .home-btn {
+        font-size: 1rem;
+    }
+    #Why-us .why-btn a {
+        justify-content: center;
+        align-content: center;
+        display: flex;
+    }
+    .testi-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    html {
+        font-size: 50%;
+        width: 100%;
+        height: auto;
+    }
+    #Notice-board .Notice-content {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* border: 2px solid yellow; */
+    }
+    #Notice-board .Notice-content .Notice-left ol li {
+        font-size: .3rem;
+        /* margin-left: 10rem; */
+        /* border: 2px solid yellowgreen; */
+        width: 50vw;
+        font-size: .2rem;
+    }
+    #Notice-board .Notice-content .Notice-right ol li {
+        font-size: .3rem;
+        /* margin-left: 3rem; */
+        width: 70vw;
+        font-size: .2rem;
+        /* border: 2px solid purple; */
+    }
+    .Programmes-content {
+        flex-direction: column;
+        /* border: 2px solid pink; */
+        width: 100%;
+        height: auto;
+    }
+    .Programmes-content .programmes-left {
+        /* border: 2px solid red; */
+        width: 100%;
+        align-self: flex-start;
+    }
+    .voice {
+        width: 130vw;
+        height: auto;
+    }
+    .voice .voice-text {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .Programmes1 .Programmes-content .programmes-left {
+        font-size: 1rem;
+    }
+}

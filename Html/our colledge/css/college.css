@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Patua+One&family=Ubuntu+2&family=Montserrat+2&family=Raleway:wght@500&display=swap");
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70.5%;
+    height: auto;
+    width: 100%;
+}
+
+body {
+    height: auto;
+    height: auto;
+    width: 100%;
+}
+
+ :root {
+    --basic: #ffffff;
+    --black: #000000;
+    --black-v2: #0000007c;
+    --black-v3: rgba(0, 0, 0, 0.726);
+    --primary: #222845;
+    --shade: #42424214;
+    --shade-v2: rgba(105, 105, 105, 0.103);
+    --font_awesome: #dfd5d5be;
+    --left_border: rgba(255, 255, 255, 0.376);
+    --dropdown: rgb(245, 245, 245);
+    --btn: #b99663;
+    --links: rgba(75, 75, 211, 0.835);
+}
+
+.main-about {
+    max-width: 1170px;
+    margin: 2rem auto;
+    height: auto;
+    background-color: var(--shade);
+}
+
+.main-about>h1 {
+    margin: auto;
+    width: 40%;
+    height: auto;
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.main-about .headpt1 {
+    color: var(--btn);
+    text-decoration: underline currentColor;
+}
+
+.main-about .headpt2 {
+    color: var(--primary);
+    text-decoration: underline currentColor;
+}
+
+.main-about h1 {
+    padding: 2rem 3rem;
+    font-family: "Raleway", sans-serif;
+    color: var(--btn);
+}
+
+.main-about p {
+    padding: 0rem 4rem;
+    font-size: 1.3rem;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 2rem;
+    color: var(--black-v3);
+}
+
+.main-about ul {
+    padding: 1rem 8rem;
+    font-size: 1.3rem;
+    font-family: "Ubuntu", sans-serif;
+    list-style: disc;
+    line-height: 2rem;
+    color: var(--black-v3);
+}
+
+.main-about h3 {
+    padding: 2rem 4rem;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary);
+    font-size: 1.4rem;
+}
+
+.main-about .facilities h1 {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    color: var(--btn);
+    padding-top: 8rem;
+    font-size: 2.3rem;
+}
+
+.main-about .headpt-1 {
+    color: var(--btn);
+    text-decoration: underline currentColor;
+}
+
+.main-about .headpt-2 {
+    color: var(--primary);
+    text-decoration: underline currentColor;
+}
+
+.facilities {
+    max-width: 1170px;
+    height: auto;
+    margin: auto;
+}
+
+.main-about .facilities li {
+    color: var(--btn);
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+/* .after-img {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background-color: rgba(32, 93, 156, 0.8);
+    font-size: 2rem;
+    color: var(--btn);
+    font-weight: bold;
+    text-align: center;
+}
+
+.after-img p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.after-img::after {
+    content: '';
+    position: absolute;
+    background: url('https://i.ytimg.com/vi/uqsAy_Aibn8/hqdefault.jpg') no-repeat center center/cover;
+    height: 34vh;
+    width: 90%;
+    /* background-attachment: fixed; */
+
+
+/* top: .5rem;
+left: 5rem;
+z-index: -1;
+
+} */

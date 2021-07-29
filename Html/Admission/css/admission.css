@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Patua+One&family=Ubuntu+2&family=Montserrat+2&family=Raleway:wght@500&display=swap");
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70.5%;
+    height: auto;
+    width: 100%;
+}
+
+body {
+    height: auto;
+    height: auto;
+    width: 100%;
+}
+
+ :root {
+    --basic: #ffffff;
+    --black: #000000;
+    --black-v2: #0000007c;
+    --black-v3: rgba(0, 0, 0, 0.726);
+    --primary: #222845;
+    --shade: #42424214;
+    --shade-v2: rgba(105, 105, 105, 0.103);
+    --font_awesome: #dfd5d5be;
+    --left_border: rgba(255, 255, 255, 0.376);
+    --dropdown: rgb(245, 245, 245);
+    --btn: #b99663;
+    --links: rgba(75, 75, 211, 0.835);
+}
+
+#admission {
+    max-width: 1170px;
+    height: auto;
+    margin: auto;
+    background-color: var(--shade);
+    /* border: 2px solid pink; */
+}
+
+.admission {
+    width: 100%;
+    height: auto;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* border: 2px solid red; */
+    padding: 2rem 3rem;
+}
+
+.admission .headpt-1 {
+    color: var(--btn);
+    text-decoration: underline currentColor;
+}
+
+.admission .headpt-2 {
+    color: var(--primary);
+    text-decoration: underline currentColor;
+}
+
+.admission h1 {
+    margin: 4rem auto;
+    font-family: "Raleway", sans-serif;
+}
+
+.admission h3 {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--btn);
+    padding-top: 2rem;
+}
+
+.admission p {
+    padding: 1rem 4rem;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--black-v3);
+}
+
+.admission ul {
+    list-style: circle;
+    padding: 2rem 5rem;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--black-v3);
+}
+
+.admission ul li {
+    padding: .5rem 0rem;
+}
+
+.admibtn {
+    display: block;
+    margin: auto;
+    height: 5.5vh;
+    text-align: center;
+    width: 15%;
+    border: 1px solid var(--btn);
+    color: var(--btn);
+    background-color: var(--basic);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-out;
+}
+
+.admibtn:hover {
+    background-color: var(--btn);
+    color: var(--basic);
+}
+
+.admibtn a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 70.5%;
+}

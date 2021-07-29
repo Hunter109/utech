@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Patua+One&family=Ubuntu+2&family=Montserrat+2&family=Raleway:wght@500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 50%;
+    height: auto;
+}
+
+body {
+    width: 110%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #42424214;
+    justify-content: center;
+}
+
+.hunter {
+    margin-left: 15%;
+    width: 70%;
+    /* background-color: #fff; */
+    background: #42424214;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hunter .title {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+.hunter .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.lankey form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .gender-details span.xd,
+form .course-details span.xd {
+    font-weight: bold;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.input-box tr td input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    /* transition: all 0.3s ease; */
+    /* border: solid red; */
+}
+
+form .input-box span.details {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-box tr td input {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    font-weight: bold;
+    /* transition: all 0.3s ease; */
+    /* border: solid red; */
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+
+/* .input-box td input:focus,
+.input-box td input:valid {
+    border-color: #9b59b6;
+} */
+
+.input-box td input:focus,
+.input-box td input:valid {
+    border-color: #9b59b6;
+}
+
+
+/* .content tr td input:focus,
+.content tr td input:valid {
+    border-color: #9b59b6;
+} */
+
+form .gender-details .gender-title,
+form .course-details .course-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+form .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+form .category label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+}
+
+.course-details .red,
+.gender-details .red {
+    color: red;
+}
+
+#dot-11:checked~.category label .one,
+#dot-22:checked~.category label .two,
+#dot-33:checked~.category label .three,
+#dot-44:checked~.category label .four {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .button {
+    height: 45px;
+    margin: 35px 0
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover {
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media(max-width: 584px) {
+    .hunter {
+        max-width: 100%;
+    }
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .category {
+        width: 100%;
+    }
+    .lankey form .user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+@media(max-width: 459px) {
+    .hunter .lankey .category {
+        flex-direction: column;
+    }
+}
