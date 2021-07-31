@@ -96,6 +96,10 @@
         width: 100%;
         height: auto;
     }
+      #Notice-board .Notice-left .Notice-a {
+        display: none;
+    }
+}
 }
 
 @media only screen and (max-width:400px) {
