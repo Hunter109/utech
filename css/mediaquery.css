@@ -99,6 +99,21 @@
     #Notice-board .Notice-left .Notice-a {
         display: none;
     }
+    .Notice-left {
+                height: auto;
+                width: 100%;
+                align-content: center;
+            }
+     .Notice-right {
+                /* border: 2px solid rgb(17, 32, 238); */
+                height: auto;
+                width: 100%;
+            }
+      .table1 {
+                display: block;
+                height: auto;
+                width: 100%;
+            }
 }
 
 
