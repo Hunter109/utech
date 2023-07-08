@@ -74,10 +74,10 @@ body {
     filter: grayscale(25%);
 }
 
-.gallery img:hover {
+/* .gallery img:hover {
     transform: scale(1.1);
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 250ms;
     filter: grayscale(0%);
-}
+} */
