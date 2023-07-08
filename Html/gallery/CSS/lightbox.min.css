@@ -191,8 +191,8 @@ body.lb-disable-scrolling {
     transition: opacity .2s
 }
 
-.lb-data .lb-close:hover {
+/* .lb-data .lb-close:hover {
     cursor: pointer;
     filter: alpha(Opacity=100);
     opacity: 1
-}
+} */
